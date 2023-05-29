@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Prod from './Component/Prod';
+import SignUp from './Component/SignUp';
+import Login from './Component/Login';
+import ComponentOne from './Component/ComponentOne';
+import FetchPosts from './Component/FetchPosts';
+import PostForm from './Component/PostForm';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Shaban</h1>
+      {/* <Prod></Prod> */}
+      {/* <SignUp></SignUp> */}
+      {/* <Login></Login> */}
+      {/* <ComponentOne> </ComponentOne> */}
+      {/* <PostForm></PostForm> */}
+      <FetchPosts></FetchPosts>
     </div>
   );
 }
